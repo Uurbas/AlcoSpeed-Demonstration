@@ -12,7 +12,10 @@ void loop() {
   if (AlcoSpeed < 32)
   {
     digitalWrite(switchpin, HIGH);
-    delay(100);
+    delay(100);    
+  }
+  else
+  {
     digitalWrite(switchpin, LOW);
     delay(100);
   }
